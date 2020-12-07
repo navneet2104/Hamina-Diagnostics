@@ -1,6 +1,17 @@
 # Hamina-Diagnostics
 A web application for heart disease prediction
 
+### Installation
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ cd Hamina Diagnotics
+$ pip install numpy
+$ pip install flask
+$ pip install myswl-connector
+```
+
 # Home page 
 ![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/1.png)
 
@@ -10,10 +21,10 @@ A web application for heart disease prediction
 # Result
 ![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/4.png)
 
-# Contributors 
+### Contributors 
 
-# Navneet Agarwal
+  - Navneet Agarwal
 
-# Mihika khandelwal
+  - Mihika khandelwal
 
-# Harsh sharma
+  - Harsh sharma
