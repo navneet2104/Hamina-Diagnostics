@@ -24,7 +24,7 @@ $ pip install keras
 
 ### Contributors 
 
-  - Navneet Agarwal
+  - Navneet Agarwal (https://github.com/navneet2104)
 
   - Mihika khandelwal
 
