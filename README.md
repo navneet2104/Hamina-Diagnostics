@@ -9,7 +9,8 @@ Install the dependencies and devDependencies and start the server.
 $ cd Hamina Diagnotics
 $ pip install numpy
 $ pip install flask
-$ pip install myswl-connector
+$ pip install mysql-connector
+$ pip install keras
 ```
 
 # Home page 
