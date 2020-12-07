@@ -1,18 +1,19 @@
 # Hamina-Diagnostics
 A web application for heart disease prediction
 
-Home page 
-![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/Screenshot%20(120).png)
+# Home page 
+![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/1.png)
 
-Registration page
-![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/Screenshot%20(122).png)
+# Registration page
+![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/2.png)
 
-Result
-![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/Screenshot%20(105).png)
+# Result
+![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/4.png)
 
-Contributors 
-Navneet Agarwal
+# Contributors 
 
-Mihika khandelwal
+# Navneet Agarwal
 
-Harsh sharma
+# Mihika khandelwal
+
+# Harsh sharma
