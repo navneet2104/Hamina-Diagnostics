@@ -13,13 +13,13 @@ $ pip install mysql-connector
 $ pip install keras
 ```
 
-# Home page 
+### Home page 
 ![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/1.png)
 
-# Registration page
+### Registration page
 ![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/2.png)
 
-# Result
+### Result
 ![alt text](https://github.com/navneet2104/Hamina-Diagnostics/blob/main/4.png)
 
 ### Contributors 
