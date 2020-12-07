@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hamina Diagnostics| Registration Form</title>
+    <link rel="icon" href="/static/images/hlogo.png">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/30dceba1d8.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <section class="colored-section" id="title">
+    <div class="container-fluidf">
+    <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <img class="logo" src="/static/images/hlogo.png" alt="hlogo">
+      <a class="navbar-brand" href="">hamina Diagnostics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/">Self Diagnose</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/">About Us</a>
+            </li>
+        </ul>
+     </div>
+    </nav>
+  </div>
+</section>
+<form action="/result" method="POST">
+  <div class="container bg">
+     <label for="age">Age</label>
+        <input type="text" id="age" name="age" placeholder="your age...." required >
+        <br>
+        <br>
+   <label for="sex">Sex</label>
+  <select id="sex" name="sex">
+      <option value="0">male</option>
+      <option value="1">Female</option>
+     </select>
+     <br><br>
+    <label for="cp">Chest Pain</label>
+  <select id="cp" name="cp">
+      <option value="1"> typical type 1 </option>
+      <option value="2">typical type agina</option>
+      <option value="3">non-agina pain</option>
+      <option value="4">asymptomatic</option>
+      </select>
+      <br><br>
+      <label for="trestbps">Resting blood pressure</label>
+      <input type="text" id="trestbps" name="trestbps" placeholder="blood pressure value.." required>
+      <br><br>
+      <label for="chol">Serum cholestrol</label>
+    
+          <input type="text" id="chol" name="chol" placeholder="cholestrol value.." required>
+   <br><br>
+    <label for="fbs">Fasting Blood Sugar</label>
+  
+  <select id="fbs" name="fbs">
+      <option value="1">  ≥ 120 mg/dl </option>
+      <option value="0">≤ 120 mg/dl</option>
+           </select>
+           <br><br>
+       <label for="restecg">Resting electrographic results</label>
+      <select id="restecg" name="restecg">
+
+      <option value="0">  Normal </option>
+      <option value="1">  having ST_T wave abnormal </option>
+      <option value="2">left ventricular  hypertrophy </option>
+           
+       </select>
+  <br><br>
+     <label for="thalach">Maximum heart rate achieved </label>
+   
+       <input type="text" id="thalach" name="thalach" required>
+    <br>
+    <br>
+     <label for="exang">Exercise induced angina -(Exang)</label>
+  
+  <select id="exang" name="exang">
+      <option value="0">no</option>
+      <option value="1">yes</option>
+     </select>
+     <br>
+  <br>
+     <label for="oldpeak">ST depression induced by exercise  </label>
+    
+       <input type="text" id="oldpeak" name="oldpeak" placeholder="oldpeak value" required>
+    <br><br>
+      <label for="slope">Slope of the ST segment </label>
+    
+      <select id="slope" name="slope">
+      <option value="1">  up sloping   </option>
+      <option value="2">   flat  </option>
+      <option value="3"> down sloping  </option>
+      <option value="4"> Unknown  </option>
+           
+       </select>
+   <br><br>
+      <label for="ca">Number of major vessels colored by floursopy </label>
+    
+      <select id="ca" name="ca">
+      <option value="0">  0   </option>
+      <option value="1">   1  </option>
+      <option value="2"> 2  </option>
+           <option value="3"> 3  </option>
+       <option value="4"> Unknown  </option>
+       </select>
+           
+       </select>
+   <br><br>
+      <label for="thal">Defect type</label>
+      <select id="thal" name="thal">
+      <option value="3">   normal    </option>
+      <option value="6">    fixed </option>
+      <option value="7"> reversible defect  </option>
+           <option value="8"> Unknown  </option>
+       </select>
+           
+       </select>
+       <br><br>
+    </div>
+  <br>
+  <br>
+ 
+  <input type="submit" value="PREDICT">
+   
+  
+  <input type="reset" value="RESET">
+ 
+  </form>
+
+<!--footer section-->
+<footer class="white-section" id="footer">
+ <div class="container-fluidf">
+  <i class="social-icon fab fa-facebook-f"></i>
+  <i class="social-icon fab fa-twitter"></i>
+  <i class="social-icon fab fa-instagram"></i>
+  <p>© Copyright 2020 hamina Diagnostics</p>
+</div>
+
+</footer>
+
+
+</body>
+
+</html>
